@@ -165,3 +165,64 @@ section.information p {
 section.information .info-1 {
     padding: 183px 0;
 }
+
+footer {
+    padding-top: 279px;
+    margin-bottom: 44px;
+}
+
+footer a {
+    font-weight: bold;
+    font-size: 14px;
+    color: var(--black);
+    line-height: 18px;
+}
+
+footer .copy {
+    margin-top: 32px;
+    font-size: 14px;
+    color: var(--grey-1);
+    line-height: 17px;
+    font-weight: 400;
+}
+
+@media (max-width: 576px){
+
+
+    section.hero,
+    section.setup,
+    section.information {
+        text-align: center;
+    }
+
+    .navbar {
+        padding: 20px 0;
+    }
+
+    .nav-link {
+        margin: 0;
+    }
+
+
+    section.hero img {
+        padding-top: 2.5rem;
+    }
+
+    section.hero .text {
+        font-weight: 800;
+        font-size: 38px;
+        line-height: 53px;
+    }
+    .buttons .btn {
+        display: block;
+        margin: lrem 0;
+    }
+
+    .buttons {
+        margin-left: 0 !important;
+    }
+
+    section.hero .col-md-6 {
+        padding-top: px;
+    }
+}
